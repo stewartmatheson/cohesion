@@ -1,0 +1,10 @@
+{
+	"development" : 
+	{
+		"user" : "root",
+		"pass" : "",
+		"host" : "localhost",
+		"database" : "cohesion_development",
+		"adaptor" : "mysql"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"view" : 
+	[
+		{
+			"tag" : "h1",
+			"content" : "Template"
+		},
+		
+		{
+			"tag" : "p",
+			"content" : "Hello from the template"
+		}
+	]
+}
