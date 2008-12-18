@@ -10,8 +10,11 @@ var dispatch =
 		var getData = Jaxer.request.current.queryParts;
 		//load the controller file
 		
-		controllerName = getData.c || 'index';
-		actionName = getData.a || 'index';
+		var queryString = getData.q || 'welcome/index';
+		var stringParts = queryString.split("/");
+		
+		controllerName = stringParts[0] || 'welcome';
+		actionName = stringParts[1] || 'index';
 		Controller.load(controllerName, actionName) 	
 	},
 	
