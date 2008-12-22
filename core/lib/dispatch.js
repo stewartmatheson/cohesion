@@ -15,7 +15,7 @@ var dispatch =
 		
 		controllerName = stringParts[0] || 'welcome';
 		actionName = stringParts[1] || 'index';
-		Controller.load(controllerName, actionName) 	
+		Controller.load(controllerName, actionName);
 	},
 	
 	loadController : function(controllerName, actionName)

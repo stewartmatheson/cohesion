@@ -4,5 +4,10 @@
 var Request = 
 {
 	data : {},
-	action : {}
+	action : {},
 };
+
+var Config =
+{
+	database : {}
+}

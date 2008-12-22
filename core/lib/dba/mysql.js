@@ -5,7 +5,8 @@ var dba =
 {
 	connect : function()
 	{
-		Jaxer.DB.con	
+		Config.database = Utils.loadJSON('file://' + applicationRoot +  '/config/database.json');		
+		Jaxer.DB.MySQL.Connection.constructor(Config.database.development);
 	},
 	
 	
